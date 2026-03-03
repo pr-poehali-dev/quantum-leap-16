@@ -19,18 +19,20 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/4e98c8d2-f258-4533-a6f3-d941b7318d99/files/c1068bee-36f8-4d21-a398-aab4e1ef0ee9.jpg"
+          alt="Замок Беларуси"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/40" />
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
+        <p className="text-xs md:text-sm uppercase tracking-[0.4em] mb-4 opacity-70">Свиток странника</p>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          ЗАМКИ<br/>БЕЛАРУСИ
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Путеводитель по средневековым крепостям — от Мирского замка до Несвижа
         </p>
       </div>
     </div>
